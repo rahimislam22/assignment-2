@@ -28,6 +28,17 @@
     padding: 8px;
     font-weight: bold;
 }
+@media screen and (max-width:576px){
+    .nav-item{
+        flex-direction: column;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .menu-bar{
+        flex-direction: column;
+    }
+}
 /* ----------------
     after nav section 
 -------------------*/
@@ -64,6 +75,17 @@
     border-radius: 7px;
     margin-left: 600px;
     margin-top: 30px;
+}
+@media screen and(max-width:576px){
+    .banner-title{
+        flex-direction: row;
+    }
+    .banner-img{
+        height: 100px;
+        width:100px;
+        display: flex;
+        margin-right: 100px;
+    }
 }
 /* ---------------
     main section 
@@ -102,6 +124,16 @@
     padding: 7px;
     border-radius: 7px;
     margin-top: 20px;
+}
+@media screen and (max-width:576px){
+    main{
+        flex-direction: column;
+    }
+    .team-image{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
 }
 /*------------------------------
     article / feature section 
@@ -173,6 +205,14 @@ article{
     margin-top: -110px;
 }
 
+@media screen and (max-width:576){
+    article{
+        flex-direction: column;
+    }
+    .article-img{
+        flex-direction: column;
+    }
+}
 /* some fact section */
 
 .fact{
@@ -199,6 +239,14 @@ article{
     align-items: center;
     text-align: center;
 }
+@media screen and(max-width:576px){
+    .fact{
+        flex-direction: column;
+    }
+    .fact-box{
+        flex-direction: column;
+    }
+}
 /* sponsor section */
 
 .sponsor-title{
@@ -211,9 +259,26 @@ article{
     justify-content: space-around;
     margin-top: 30px;
 }
+/* follow section */
+.follow-section{
+    margin-top: 200px;
+    width: 50%;
+    display: flex;
+}
+.follow-icon{
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    margin-left: -20px;
+
+}
+.sub-section{
+    margin-left: 800px;
+    
+}
 /* footer section */
 .foot{
-    margin-top: 600px;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
